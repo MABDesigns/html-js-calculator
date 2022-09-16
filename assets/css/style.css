@@ -1,0 +1,35 @@
+body{
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10rem;
+}
+.calculator{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 260px;
+    backdrop-filter: blur(16px) saturate(180%);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    padding: 20px;
+}
+.screen{
+    font-size: 85px;
+    color: white;
+    border-radius: 20px;
+    text-align: end;
+    width: 100%;
+    padding: 0px 10px;
+    border: none;
+    outline: none;
+    backdrop-filter: blur(16px) saturate(180%);
+    background: linear-gradient(45deg, rgba(114, 114, 114), #494949);
+    border-radius: 12px;
+}
+button{
+    font-size: 35px;
+}
